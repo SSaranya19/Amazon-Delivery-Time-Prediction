@@ -60,7 +60,7 @@ The dataset includes:
 
 
 ## 🏆 Results
-By the end of this project, we achieve:
+By the end of this project, achieve:
 - A **cleaned and processed dataset** for modeling.
 - Multiple **regression models** developed & tracked in MLflow.
   
