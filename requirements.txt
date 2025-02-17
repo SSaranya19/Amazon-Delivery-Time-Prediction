@@ -1,5 +1,10 @@
 streamlit
 pandas
-python-dotenv
-SQLAlchemy
-plotly
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+mlflow
+pickle
+geopy
