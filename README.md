@@ -1,168 +1,81 @@
 # Amazon-Delivery-Time-Prediction 🚚⏱️
 
-## Problem Statement
+## 📌 Project Overview
+This project aims to predict delivery times for e-commerce orders based on factors such as product size, distance, traffic conditions, and shipping methods. By leveraging machine learning techniques, we develop regression models to estimate delivery times accurately. A user-friendly **Streamlit** application allows users to input order details and receive estimated delivery times.
 
-This project aims to predict delivery times for e-commerce orders by leveraging a variety of factors like product size, distance, traffic conditions, and shipping methods. By analyzing the provided dataset, the goal is to build accurate regression models to estimate delivery times. The final product will feature a user-friendly interface, allowing users to input details and receive real-time delivery time predictions.
+## 🛠 Skills Learned
+- Python scripting
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Machine Learning (Regression Modeling)
+- Model Tracking using MLflow
+- Streamlit Application Development
 
-## Business Use Cases 📦
+## 📦 Business Use Cases
+- **Enhanced Delivery Logistics:** Predict delivery times to optimize schedules and improve customer satisfaction.
+- **Dynamic Adjustments:** Adjust delivery estimates based on real-time traffic and weather conditions.
+- **Agent Performance Evaluation:** Assess delivery agent efficiency.
+- **Operational Efficiency:** Optimize resource allocation for deliveries.
 
-- **Enhanced Delivery Logistics:** 
-  - Predict delivery times to improve customer satisfaction and optimize delivery schedules.
-  
-- **Dynamic Traffic and Weather Adjustments:**
-  - Adjust delivery estimates based on current traffic and weather conditions.
-
-- **Agent Performance Evaluation:**
-  - Evaluate agent efficiency, identify areas for training or improvement.
-
-- **Operational Efficiency:**
-  - Optimize resource allocation by analyzing trends and performance metrics.
-
-## Approach 🔍
-
-1. **Data Preparation:**
-   - Load and preprocess the dataset.
-   - Handle missing or inconsistent data.
-   - Perform feature engineering, such as calculating distances between store and drop locations.
-
-2. **Data Cleaning:**
-   - Remove duplicates and handle missing values.
-   - Standardize categorical variables (e.g., weather, traffic conditions).
-
-3. **Exploratory Data Analysis (EDA):**
-   - Analyze trends in delivery times, agent performance, and external factors.
-   - Visualize the impact of traffic, weather, and other variables on delivery times.
-
-4. **Feature Engineering:**
-   - Calculate geospatial distances using store and drop coordinates.
-   - Extract time-based features like hour of the day and day of the week.
-
+## 🏗 Approach
+1. **Data Preparation:** Load and preprocess the dataset, handle missing values, and perform feature engineering.
+2. **Data Cleaning:** Remove duplicates, standardize categorical variables.
+3. **EDA:** Analyze trends, visualize factors impacting delivery times.
+4. **Feature Engineering:** Compute distances, extract time-based features.
 5. **Regression Model Development:**
-   - Train multiple regression models:
-     - Linear Regression
-     - Random Forest Regressor
-     - Gradient Boosting Regressor
-   - Evaluate models using metrics like RMSE, MAE, and R-squared.
-   - Compare models and track performance metrics using **MLflow**.
+   - Linear Regression
+   - Random Forest Regressor
+   - Gradient Boosting Regressor
+   - XGBRegressor
+   - SVR
+   - Evaluation using RMSE, MAE, R²
+   - Model tracking with MLflow
+6. **Application Development:** Build a **Streamlit** UI for user inputs and predictions.
+7. **Model Comparison & Tracking:** Log, compare, and manage different regression models with **MLflow**.
+8. **Deployment:** Deploy the application using **Streamlit**.
 
-6. **Application Development:**
-   - Build a user interface using **Streamlit** to:
-     - Input order details (e.g., distance, traffic, weather).
-     - Display predicted delivery times.
+## 📊 Dataset: `amazon_delivery.csv`
+The dataset includes:
+- **Order Details:** Order ID, date, time.
+- **Agent Information:** Age, rating.
+- **Location Data:** Store & drop coordinates.
+- **Delivery Conditions:** Weather, traffic, vehicle type.
+- **Target Variable:** Delivery time in hours.
 
-7. **Model Comparison and Tracking:**
-   - Use **MLflow** to log, compare, and manage regression models.
-   - Document hyperparameters, performance metrics, and model versions.
+## 🔍 Exploratory Data Analysis (EDA)
+- **Key Insights:**
+  - Distribution of delivery times.
+  - Impact of weather and traffic.
+  - Distance vs. delivery time correlation.
+  - Agent performance across conditions.
+- **Visualizations:**
+  - Bar charts (delivery times by product category)
+  - Scatter plots (distance vs. delivery time)
+  - Heatmaps (correlations)
 
-8. **Deployment:**
-   - Deploy the application on **Streamlit** for accessibility and scalability.
+## 🏆 Results
+By the end of this project, we achieve:
+- A **cleaned and processed dataset** for modeling.
+- Multiple **regression models** developed & tracked in MLflow.
+- Insights into factors influencing delivery times.
+- A functional **Streamlit application** for delivery time prediction.
 
-## Dataset 📊
+## 🛠 Tech Stack
+- **Programming:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
+- **Model Tracking:** MLflow
+- **Frontend:** Streamlit
 
-### `amazon_delivery.csv`
+## 📁 Deliverables
+1. **Source Code:** Python scripts for data processing, modeling.
+2. **Processed Data:** Cleaned dataset for analysis.
+3. **Regression Models:** Trained models for delivery time prediction.
+4. **Application Code:** Streamlit-based UI.
+5. **Documentation:** Implementation details & results.
+6. **Model Tracking:** MLflow logs and model comparisons.
 
-This dataset contains detailed information about orders, agents, and delivery conditions:
-
-- **Order_ID**: Unique identifier for each order.
-- **Agent_Age**: Age of the delivery agent.
-- **Agent_Rating**: Rating of the delivery agent.
-- **Store_Latitude/Longitude**: Geographic location of the store.
-- **Drop_Latitude/Longitude**: Geographic location of the delivery address.
-- **Order_Date/Order_Time**: Date and time when the order was placed.
-- **Pickup_Time**: Time when the delivery agent picked up the order.
-- **Weather**: Weather conditions during delivery.
-- **Traffic**: Traffic conditions during delivery.
-- **Vehicle**: Mode of transportation used for delivery.
-- **Area**: Type of delivery area (Urban/Metropolitan).
-- **Delivery_Time**: Target variable representing the actual time taken for delivery (in hours).
-- **Category**: Category of the product being delivered.
-
-## Data Flow and Architecture 🌐
-
-1. **Data Preparation:**
-   - Load and preprocess the dataset.
-   - Store processed data locally for model development.
-
-2. **Processing Pipeline:**
-   - Perform feature engineering and data preprocessing.
-   - Train and save regression models.
-
-3. **Model Training:**
-   - Utilize libraries like **scikit-learn** and **XGBoost** for model development.
-   - Track model training and evaluation in **MLflow**.
-   - Save trained models for deployment.
-
-4. **Deployment:**
-   - Use **Streamlit** to create a user-friendly front end for real-time delivery time prediction.
-
-## Exploratory Data Analysis (EDA) 📈
-
-Key insights and trends explored:
-
-- Distribution of delivery times.
-- Impact of weather and traffic on delivery times.
-- Relationship between distance and delivery time.
-- Agent performance across different conditions.
-
-### Key Visualizations:
-- **Bar charts**: Delivery times by product category.
-- **Scatter plots**: Distance vs. delivery time.
-- **Heatmaps**: Correlation between agent rating and delivery time.
-
-## Results 🎯
-
-By the end of this project, learners will achieve:
-
-1. A cleaned and processed dataset ready for modeling.
-2. Multiple regression models developed and tracked using **MLflow**.
-3. Insights into the factors influencing delivery times.
-4. A fully functional delivery time prediction system accessible via a **Streamlit** interface.
-
-## Technical Tags 🧑‍💻
-
-- Python
-- Regression Modeling
-- Data Cleaning
-- Feature Engineering
-- Streamlit
-- MLflow
-
-## Deliverables 📦
-
-1. **Source Code:**
-   - Python scripts for data preparation, EDA, feature engineering, and model development.
-
-2. **Processed Data:**
-   - Cleaned and prepared dataset for analysis.
-
-3. **Regression Models:**
-   - Trained and evaluated models for delivery time prediction.
-
-4. **Application Code:**
-   - Streamlit app code with prediction capabilities.
-
-5. **Documentation:**
-   - Detailed documentation explaining the implementation and results.
-
-6. **Model Tracking:**
-   - MLflow logs and comparisons of all regression models.
-
-## Getting Started 🚀
-
-To get started with this project:
-
-1. Clone the repository.
-2. Install the required dependencies:
+## 🚀 How to Run the Project
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit application:
-   ```bash
-   streamlit run app.py
-   ```
-
-Enjoy building and predicting! 😃
-
----
-
-For more details or to contribute, feel free to open an issue or pull request! 🎉
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
