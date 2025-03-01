@@ -8,3 +8,4 @@ scipy
 mlflow
 pickle
 geopy
+pip==25.0
