@@ -1,11 +1,3 @@
 streamlit
 pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-scipy
-mlflow
 pickle
-geopy
-pip==25.0
