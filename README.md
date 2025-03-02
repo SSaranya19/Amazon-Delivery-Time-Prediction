@@ -20,11 +20,11 @@ This project aims to predict delivery times for e-commerce orders based on facto
    - Gradient Boosting Regressor
    - XGBRegressor
    - SVR
-   - Evaluation using RMSE, MAE, R²
-   - Model tracking with MLflow
-6. **Application Development:** Build a **Streamlit** UI for user inputs and predictions.
-7. **Model Comparison & Tracking:** Log, compare, and manage different regression models with **MLflow**.
-8. **Deployment:** Deploy the application using **Streamlit**.
+6. Evaluation using RMSE, MAE, R²
+7. Model tracking with MLflow
+8. **Application Development:** Build a **Streamlit** UI for user inputs and predictions.
+9. **Model Comparison & Tracking:** Log, compare, and manage different regression models with **MLflow**.
+10. **Deployment:** Deploy the application using **Streamlit**.
 
 ## 📊 Dataset: `amazon_delivery.csv`
 The dataset includes:
