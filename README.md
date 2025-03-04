@@ -70,7 +70,8 @@ By the end of this project, achieve:
 
 - A functional **Streamlit application** for delivery time prediction.
 
-  ![image](https://github.com/user-attachments/assets/e025b0fd-ef1b-4b61-8286-88ba9013bf18)
+  ![Amazon_Delivery_predict](https://github.com/user-attachments/assets/270823ba-dbbb-4951-9d31-06e5e7d10838)
+
 
 
 ## 🛠 Tech Stack
