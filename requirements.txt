@@ -6,6 +6,5 @@ matplotlib
 seaborn
 scipy
 mlflow
-pickle
 geopy
 pip==25.0.1
