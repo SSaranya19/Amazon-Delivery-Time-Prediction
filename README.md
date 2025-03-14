@@ -32,7 +32,7 @@ The dataset includes:
 - **Agent Information:** Age, rating.
 - **Location Data:** Store & drop coordinates.
 - **Delivery Conditions:** Weather, traffic, vehicle type.
-- **Target Variable:** Delivery time in hours.
+- **Target Variable:** Delivery time.
 
 ## 🔍 Exploratory Data Analysis (EDA)
 - **Key Insights:**
@@ -69,6 +69,9 @@ By the end of this project, achieve:
   ![image](https://github.com/user-attachments/assets/252f08b8-6149-406f-b6fa-b11f4b628a0d)
 
 - A functional **Streamlit application** for delivery time prediction.
+- **Streamlit application** Link.
+  
+  https://amazondeliverytimeprediction.streamlit.app/
 
   ![Amazon_Delivery_predict](https://github.com/user-attachments/assets/270823ba-dbbb-4951-9d31-06e5e7d10838)
 
