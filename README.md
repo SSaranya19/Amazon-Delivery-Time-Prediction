@@ -64,9 +64,12 @@ By the end of this project, achieve:
 - A **cleaned and processed dataset** for modeling.
 - Multiple **regression models** developed & tracked in MLflow(**http://127.0.0.1:5000/**).
   
-  ![image](https://github.com/user-attachments/assets/3f465333-e9e1-42c8-b5e2-67b7eb44baac)
+  ![ml1](https://github.com/user-attachments/assets/d46902d6-760c-44b2-bcb4-862a693d156c)
 
-  ![image](https://github.com/user-attachments/assets/252f08b8-6149-406f-b6fa-b11f4b628a0d)
+  ![eva](https://github.com/user-attachments/assets/e4560ebd-acc5-4d54-947d-36e25fc56619)
+
+  ![tuned](https://github.com/user-attachments/assets/be636e5d-e8a0-4de3-9ea4-72d287e9a490)
+
 
 - A functional **Streamlit application** for delivery time prediction.
 - **Streamlit application** Link.
