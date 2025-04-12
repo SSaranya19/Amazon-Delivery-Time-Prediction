@@ -19,7 +19,7 @@ This project aims to predict delivery times for e-commerce orders based on facto
    - Random Forest Regressor
    - Gradient Boosting Regressor
    - XGBRegressor
-   - SVR
+   - DecisionTree
 6. Evaluation using RMSE, MAE, R²
 7. Model tracking with MLflow
 8. **Application Development:** Build a **Streamlit** UI for user inputs and predictions.
