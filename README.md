@@ -73,7 +73,7 @@ By the end of this project, achieve:
   
   https://amazondeliverytimeprediction.streamlit.app/
 
-  ![Amazon_Delivery_predict](https://github.com/user-attachments/assets/270823ba-dbbb-4951-9d31-06e5e7d10838)
+  ![stream](https://github.com/user-attachments/assets/fbe99815-3e5c-4378-95c0-df4768da670f)
 
 
 
