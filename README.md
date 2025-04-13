@@ -42,22 +42,16 @@ The dataset includes:
 - **Visualizations:**
   - Histplot charts (Distribution of Delivery Time)
   
-  ![image](https://github.com/user-attachments/assets/eb303898-626a-49d6-b0e6-e85f29df43f8)
-  - Box plots (Delivery Times by Vehicle Type, Weather, Traffic, Area)
-  
-  ![image](https://github.com/user-attachments/assets/260b2d3a-3797-42cf-9e0c-74d26863ca1e)
+  ![image](https://github.com/user-attachments/assets/91422ae8-9e21-4ad8-831f-667b1e0ee3c7)
 
-  ![image](https://github.com/user-attachments/assets/376fecbe-b645-438f-a1d8-39f21444a13c)
+  - Bar plots (Delivery Times by Vehicle Type, Weather, Traffic, Area)
+    ![image](https://github.com/user-attachments/assets/bc4a525e-6309-47b3-9c58-da108f23888e)
+    ![image](https://github.com/user-attachments/assets/6ce8ecd0-3eaf-453b-be57-1d1818762538)
+    ![image](https://github.com/user-attachments/assets/ca052822-44ad-4a7e-97b2-cf3ea42aca50)
+    ![image](https://github.com/user-attachments/assets/90f4d29c-784a-4d28-9162-639285bf1f0e)
 
-  ![image](https://github.com/user-attachments/assets/2da8455b-423f-44b8-af20-19ae1d6e42b5)
-
-  ![image](https://github.com/user-attachments/assets/9292bf22-5401-4c4d-ac30-a5cb5736e577)
-    
   - Heatmaps (correlations)
-    
-  ![image](https://github.com/user-attachments/assets/dd939e04-cf29-4a31-bc7f-74fb92a63498)
-
-
+    ![image](https://github.com/user-attachments/assets/cafef2ff-65dc-4891-ab89-44f018725588)
 
 ## 🏆 Results
 By the end of this project, achieve:
@@ -72,9 +66,6 @@ By the end of this project, achieve:
 
 
 - A functional **Streamlit application** for delivery time prediction.
-- **Streamlit application** Link.
-  
-  https://amazondeliverytimeprediction.streamlit.app/
 
   ![stream](https://github.com/user-attachments/assets/fbe99815-3e5c-4378-95c0-df4768da670f)
 
