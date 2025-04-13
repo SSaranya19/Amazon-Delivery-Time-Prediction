@@ -45,13 +45,18 @@ The dataset includes:
   ![image](https://github.com/user-attachments/assets/91422ae8-9e21-4ad8-831f-667b1e0ee3c7)
 
   - Bar plots (Delivery Times by Vehicle Type, Weather, Traffic, Area)
-    ![image](https://github.com/user-attachments/assets/bc4a525e-6309-47b3-9c58-da108f23888e)
-    ![image](https://github.com/user-attachments/assets/6ce8ecd0-3eaf-453b-be57-1d1818762538)
-    ![image](https://github.com/user-attachments/assets/ca052822-44ad-4a7e-97b2-cf3ea42aca50)
-    ![image](https://github.com/user-attachments/assets/90f4d29c-784a-4d28-9162-639285bf1f0e)
+  
+  ![image](https://github.com/user-attachments/assets/bc4a525e-6309-47b3-9c58-da108f23888e)
+
+  ![image](https://github.com/user-attachments/assets/6ce8ecd0-3eaf-453b-be57-1d1818762538)
+
+  ![image](https://github.com/user-attachments/assets/ca052822-44ad-4a7e-97b2-cf3ea42aca50)
+
+  ![image](https://github.com/user-attachments/assets/90f4d29c-784a-4d28-9162-639285bf1f0e)
 
   - Heatmaps (correlations)
-    ![image](https://github.com/user-attachments/assets/cafef2ff-65dc-4891-ab89-44f018725588)
+  
+  ![image](https://github.com/user-attachments/assets/cafef2ff-65dc-4891-ab89-44f018725588)
 
 ## 🏆 Results
 By the end of this project, achieve:
